@@ -1,6 +1,6 @@
 # Add project specific ProGuard rules here.
-# You can control the set of applied configuration files using the
-# proguardFiles setting in build.gradle.kts.
+# Every *.keep file in this keepRules directory is merged into the R8 configuration.
+# The default rules are controlled by optimization.keepRules in build.gradle.kts.
 #
 # For more details, see
 #   http://developer.android.com/guide/developing/tools/proguard.html
